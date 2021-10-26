@@ -38,3 +38,4 @@ class Vector:
   def hypot(self):
     return (self.x **2 + self.y **2)**0.5
 
+print(Vector(1, 1).hypot())
